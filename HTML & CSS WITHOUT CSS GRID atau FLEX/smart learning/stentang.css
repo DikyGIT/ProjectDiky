@@ -1,0 +1,94 @@
+.wrap::before{
+    content: '';
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#about {
+    padding: 110px 0;
+    background-color: #02bdd5;
+}
+.span, span .h2, h2  {color: black;
+        font-size: 30px;
+        line-height: 20px;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+}
+.h3, h3 {color: blue;
+    font-size: 30px;
+    line-height: 20px;
+    color: blue;
+    text-transform: uppercase;
+}
+.h4, h4 {color: blue;
+    font-size: 30px;
+    line-height: 20px;
+    color: blue;
+    text-transform: uppercase;
+}
+.h5, h5 {color: black;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+/*Bagian Header*/
+    /*akhir header*/
+    /*bagian menu*/
+    .menu{background: white;
+    }
+    
+    .menu ul{padding: 10px;
+    margin: 0;background: white;
+    overflow: hidden;}
+    
+    .menu ul li{float: right; color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+    text-transform: uppercase;
+    list-style-type: none; padding: 20px;}
+
+    .content{ float: left; height: 100%; width: 100%;
+        padding-left: 50px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        padding-top: 0px;
+        background-color: white;
+        background-size: cover;
+        }
+        
+        .h6, h6 {color: black;
+            font-size: 20px;
+            line-height: 20px;
+            color: black;
+            text-transform: uppercase;
+        }
+        .h7, h7 {color: rgba(26, 24, 24, 0.747);
+            font-size: 15px;
+            line-height: 20px;
+            color: rgba(32, 30, 30, 0.788);
+            text-transform: uppercase;
+        }
+        .h11, h11 {color: rgba(26, 24, 24, 0.747);
+            font-size: 30px;
+            line-height: 20px;
+            color: rgba(32, 30, 30, 0.788);
+            text-transform: uppercase;
+        }
+        .footer{ float: left; height: 100%; width: 100%;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 100px;
+            padding-top: 100px;
+            background-color: #02bdd5;
+            background-size: cover;
+            }
+    

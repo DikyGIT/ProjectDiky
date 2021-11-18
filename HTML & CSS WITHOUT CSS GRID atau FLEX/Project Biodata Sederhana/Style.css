@@ -1,0 +1,74 @@
+.wrap{background: blue; width: 1150px; margin: 10px auto;}
+@keyframes lilight{
+    0%  {background-color: red}
+    25%  {background-color: blue}
+    50%  {background-color: green}
+    75%  {background-color: yellow}
+    100%  {background-color: goldenrod}
+}
+@keyframes animasi2{
+    0%  {background-image: url(boating.jpg)}
+    25%  {background-image: url(mon.jpg)}
+    50%  {background-image: url(lambor.jpg)}
+    75%  {background-image: url(lambor1.jpg)}
+    100%  {background-image: url(water.jpg)}
+}
+
+/*Bagian Header*/
+.wrap .header{background: green;
+animation: lilight 1s   infinite  ;
+/*height: 50px;*/
+padding: 2px 10px;}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{background: yellow;
+}
+
+.wrap .menu ul{padding: 0;
+margin: 0;background: yellow;
+overflow: hidden;}
+
+.wrap .menu ul li{float: left;
+list-style-type: none; padding: 10px;}
+/*akhir menu*/
+
+.clear{clear: both;}
+
+.badan{height: 470px;}
+/*bagian sidebar*/
+.wrap .badan .sidebar{background: orange;float: left; width: 25%; height: 100%;
+    animation: lilight 5s   infinite  ;
+}
+
+/*akhir sidebar*/
+
+.scroll {
+        width: 843px;
+        background: grey;
+        padding: 2px 10px;
+        overflow: scroll;
+        height: 465px;
+        
+        /*script tambahan khusus untuk IE */
+        scrollbar-face-color: #CE7E00; 
+        scrollbar-shadow-color: #FFFFFF; 
+        scrollbar-highlight-color: #6F4709; 
+        scrollbar-3dlight-color: #11111; 
+        scrollbar-darkshadow-color: #6F4709; 
+        scrollbar-track-color: #FFE8C1; 
+        scrollbar-arrow-color: #6F4709;
+}
+
+.wrap .badan .content{ float: left; height: 100%; width: 75%;
+animation: animasi2 4s infinite;
+}
+.wrap .footer{width: 100%; padding: 10px;}
+.content{
+            background-image: url(mon.jpg);
+}
+
+.riwayat td,th,h1 {
+color: white;
+}
